@@ -1,9 +1,5 @@
 # RazorPay-PHP-Integration-with-DB
-
-Change the API KEY and API SECRET KEY
-
-Change the DB name and import the database.sql
-
+Razorpay Payment Gateway Integration with Custom Form Page and Database insertion when the payment is successful.
 
 ## How to Use
 
