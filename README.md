@@ -20,17 +20,12 @@ Change the DB name and import the database.sql
    $password = "root";
    $dbname = "gothamshop";
    ```
-3. Import the database.sql in your database or run this query
+3. Import the database.sql in your database or create below table
    ```sh
-   CREATE TABLE `orders` (
-  `id` int(255) NOT NULL,
-  `order_id` varchar(255) NOT NULL,
-  `razorpay_payment_id` varchar(255) NOT NULL,
-  `status` varchar(50) NOT NULL,
-  `email` varchar(50) NOT NULL,
-  `price` int(50) NOT NULL
-   ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
-   
-   ALTER TABLE `orders`
-   ADD PRIMARY KEY (`id`);
+   id int(255) NOT NULL
+   order_id varchar(255) NOT NULL
+   razorpay_payment_id varchar(255) NOT NULL
+   status varchar(50) NOT NULL,
+   email varchar(50) NOT NULL,
+   price int(50) NOT NULL
    ```
