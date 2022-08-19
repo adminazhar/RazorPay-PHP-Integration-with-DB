@@ -1,5 +1,5 @@
 # RazorPay-PHP-Integration-with-DB
-Razorpay Payment Gateway Integration with Custom Form Page and Database insertion when the payment is successful.
+Razorpay Payment Gateway Integration(PHP,MySQL) with Custom Form Page and Database insertion when the payment is successful.
 
 ## How to Use
 
